@@ -182,9 +182,10 @@ function gameTime() {
       console.log("NEW Y COORD AFTER FALLING: " + birdOne.yCoord);
       if(birdOne.yCoord == 345) {
         points += 10; //bonus for fast clicks!
-        console.log('WINNIIINGGG');
+        console.log('good job: bonus + 10 points');
       } else if(birdOne.yCoord >= 325) {
         points += 20; //bonus for fast clicks!
+        console.log('good job: bonus + 20 points');
       }
     }
   }, 2000);

@@ -183,7 +183,7 @@ function gameTime() {
       if(birdOne.yCoord == 345) {
         points += 10; //bonus for fast clicks!
         console.log('WINNIIINGGG');
-      } else if(birdOne.yCoord == 325) {
+      } else if(birdOne.yCoord >= 325) {
         points += 20; //bonus for fast clicks!
       }
     }
